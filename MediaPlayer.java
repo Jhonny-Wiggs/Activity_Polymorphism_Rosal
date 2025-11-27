@@ -2,8 +2,9 @@ package polymorphismPorblemActivity;
 
 public interface MediaPlayer{
 	
-	void playAudio();
-	void playVideo();
+	String playAudio();
+	String playVideo();
 }
+
 
 
