@@ -3,13 +3,14 @@ package polymorphismPorblemActivity;
 public class MP3Player implements MediaPlayer{
 	
 	@Override
-	public void playAudio() {
-		System.out.print("MP3Player playing audio.");
+	public String playAudio() {
+		return "MP3Player playing audio.";
 	}
 	
 	@Override
-	public void playVideo() {
-		System.out.print("MP3Player cannot play audio.");
+	public String playVideo() {
+		return "MP3Player cannot play video.";
 	}
 }
+
 
